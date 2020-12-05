@@ -23,4 +23,21 @@ switch (TipoMotor) {
         break;          
 }
 
+//segundo punto//
+function obtenerValoresConImpuestos(){
+    var valorSinImpuesto = prompt('igrese el valor sin impuesto:');
+    var tipoDeProducto = prompt('ingrese el tipo de producto (1, 2, 3): ');
+    precio = Number ();
+    producto = Number ();
+    if (inNaN (precio) || isNaN (producto)){
+        alert ('Debe ingresar números');
+    }
+    else if (producto !=1 && producto !=2 && producto !=3){
+        
+
+    }
+}
+
+
+
 
