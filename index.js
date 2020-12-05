@@ -45,14 +45,18 @@ function obtenerValoresConImpuestos(){
             case 3:
             impuesto = Number(5);
             break;
-    
-            default:
-            break;
+
         }
+        alert ('Para un importe sin impuestos de ' + precio + ' y tipo de producto ' + producto + ' el resultado del importe con impuestos es de ' + precio*impuesto);
+        function obtenerImporteConImpuestos1(precio2){
+            var resultado = [undefined, 21, 10, 5];
+            alert ('resultado[0] = ' + resultado[0] + ', resultado[1] = ' + resultado[1] + ', resultado[2] = ' + resultado[2] + ', resultado[3] = ' + resultado[3] + '.')
+            alert ('Para un importe sin impuestos de ' + precio2 + ' y tipo de producto 1 el importe es ' + precio2*resultado[2]/100 + ', si el producto es tipo 2 el importe es ' +  precio2*resultado[1]/100 + ' y si el producto es tipo 3 el importe es ' + precio2*resultado[3]/100 + '.');
 
+    function obtenerImporteConImpuestos2(precio2){
+        var resultado = [undefined, 21, 10, 5];
+        alert ('resultado[0] = ' + resultado[0] + ', resultado[1] = ' + resultado[1] + ', resultado[2] = ' + resultado[2] + ', resultado[3] = ' + resultado[3] + '.')
+        alert ('Para un importe sin impuestos de ' + precio2 + ' y tipo de producto 1 el importe es ' + precio2*resultado[2]/100 + ', si el producto es tipo 2 el importe es ' +  precio2*resultado[1]/100 + ' y si el producto es tipo 3 el importe es ' + precio2*resultado[3]/100 + '.');
+    
     }
-}
-
-
-
-
+    
