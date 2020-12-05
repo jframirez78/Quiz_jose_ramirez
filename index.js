@@ -1,0 +1,1 @@
+/*se crea index.js y se enlaza con index.html*/
