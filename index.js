@@ -33,7 +33,22 @@ function obtenerValoresConImpuestos(){
         alert ('Debe ingresar números');
     }
     else if (producto !=1 && producto !=2 && producto !=3){
-        
+        switch (producto) {
+            case 1:
+            impuesto = Number(21);
+            break;
+    
+            case 2:
+            impuesto = Number(10);
+            break;
+    
+            case 3:
+            impuesto = Number(5);
+            break;
+    
+            default:
+            break;
+        }
 
     }
 }
